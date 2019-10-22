@@ -1,0 +1,28 @@
+email:
+  service-host: 4seeders.com
+  smtp-host: smtp.gmail.com
+  login-id: redmine.4seeder@gmail.com
+  login-pw: 1111
+  manager-email: test125@4seeders.com
+  dba-email: test125@4seeders.com
+
+svn:
+  service-name: SVN
+  host: http://4seeders.com:3343
+  service-host: http://4seeders.com:91
+  admin-id: admin
+  admin-pw: admin
+
+mssql:
+  service-name: MSSQL
+  host: 4seeders.com:1433
+  database: 4SEEDER
+  admin-id: du_manager
+  admin-pw: 1111
+  auto-create: True
+
+redmine:
+  service-name: redmine
+  host: http://4seeders.com
+  auth-key: dc4dcffba51aef44c41fc688ae7ff45497e13dfc
+  project-key: 4seeders
